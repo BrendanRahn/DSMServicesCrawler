@@ -31,3 +31,8 @@ Agent tool calls and skills should belong to the implementation level (firecrawl
 **Bridge**
  This decouples the abstraction (prompts/tool calls(?)/skills) from the implementation (llm modle provider)
 
+#### Data storage
+
+Will probably need relational database to store current state? (i.e. sites that have good information, last time crawled)
+
+Thinking of postgres db, relational and has good json column support
